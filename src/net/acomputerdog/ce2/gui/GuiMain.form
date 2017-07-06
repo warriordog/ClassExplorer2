@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="net.acomputerdog.ce2.gui.GuiMain">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="20" width="605" height="417"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <splitpane id="e85df">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="200"/>
+          </grid>
+          <gridbag weightx="0.0" weighty="0.1"/>
+        </constraints>
+        <properties>
+          <dividerSize value="7"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <tabbedpane id="1a6a2" binding="classTabs">
+            <constraints>
+              <splitpane position="right"/>
+            </constraints>
+            <properties>
+              <tabLayoutPolicy value="1"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </tabbedpane>
+          <scrollpane id="8afbd">
+            <constraints>
+              <splitpane position="left"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="e9f4" class="javax.swing.JTree" binding="classTree">
+                <constraints/>
+                <properties>
+                  <rootVisible value="true"/>
+                  <showsRootHandles value="true"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </splitpane>
+      <toolbar id="10646" binding="toolbar">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="1" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="20"/>
+          </grid>
+          <gridbag top="0" left="0" bottom="1" right="0" weightx="0.1" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <floatable value="false"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="6e940" class="javax.swing.JButton" binding="editCPButton">
+            <constraints/>
+            <properties>
+              <text value="ClassPath"/>
+              <toolTipText value="Add or remove java classes and jars"/>
+            </properties>
+          </component>
+        </children>
+      </toolbar>
+      <toolbar id="3a17d">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="2" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="20"/>
+          </grid>
+          <gridbag top="1" left="0" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <floatable value="false"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="91a21" class="javax.swing.JLabel" binding="statusLabel">
+            <constraints/>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </toolbar>
+    </children>
+  </grid>
+</form>

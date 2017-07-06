@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="net.acomputerdog.ce2.gui.GuiClassPath">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="20" width="515" height="433"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <toolbar id="af87f">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="1" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="20"/>
+          </grid>
+          <gridbag weightx="0.1" weighty="0.0"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="37b3d" class="javax.swing.JButton" binding="backButton">
+            <constraints/>
+            <properties>
+              <text value="Back"/>
+            </properties>
+          </component>
+          <component id="70173" class="javax.swing.JButton" binding="addButton">
+            <constraints/>
+            <properties>
+              <text value="Add"/>
+            </properties>
+          </component>
+          <component id="3f3e4" class="javax.swing.JButton" binding="removeButton">
+            <constraints/>
+            <properties>
+              <text value="Remove"/>
+            </properties>
+          </component>
+        </children>
+      </toolbar>
+      <component id="62f07" class="javax.swing.JList" binding="cpList">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+          <gridbag weightx="0.0" weighty="0.1"/>
+        </constraints>
+        <properties>
+          <selectionMode value="2"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
